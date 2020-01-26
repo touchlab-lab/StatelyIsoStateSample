@@ -7,12 +7,13 @@ class ViewController: UIViewController {
     }
     
     @IBAction func addMapItemsDetachedClicked(_ sender: Any) {
-        //DetachedStateSampleKt.testDetachedData()
-        print("Not hooked up. Still sorting out an issue.")
+        DetachedStateSampleKt.testDetachedData()
+//        print("Not hooked up. Still sorting out an issue.")
     }
     
     @IBAction func perfCheckClicked(_ sender: Any) {
         StateSampleKt.perfCheck1()
+        DetachedStateSampleKt.timeTest()
     }
     
     override func viewDidLoad() {
