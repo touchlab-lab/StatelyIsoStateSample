@@ -7,7 +7,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func addMapItemsDetachedClicked(_ sender: Any) {
-        DetachedStateSampleKt.testDetachedData()
+        //DetachedStateSampleKt.testDetachedData()
+        print("Not hooked up. Still sorting out an issue.")
     }
     
     @IBAction func perfCheckClicked(_ sender: Any) {
