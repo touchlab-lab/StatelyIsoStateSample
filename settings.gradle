@@ -1,0 +1,5 @@
+rootProject.name = 'StatelyIsoState'
+
+include ':app'
+
+enableFeaturePreview('GRADLE_METADATA')
